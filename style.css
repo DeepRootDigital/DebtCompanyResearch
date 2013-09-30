@@ -284,6 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-module ul li img {
 	padding-right:10px;
+	clear:both;
 }
 
 .sidebar-header {

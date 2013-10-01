@@ -6,7 +6,7 @@
 	position: absolute;
 	top:0px;
 	left:0px;
-	z-index:-1;
+	z-index:10000;
 	background-image: url("images/clouds.png");
 	background-size: contain;
 	height: 650px;
@@ -20,23 +20,24 @@
 	position: absolute;
 	top: 500px;
 	left: 0px;
-	z-index: -1;
+	z-index: 10000;
 	width: 100%;
 }
 
 .land-repeat {
+	float:left;
 	width:100%;
-	height:100%;
-	z-index:-1;
+	z-index:1000;
 	background-image: url("images/bg-repeat.png");
 	background-repeat: repeat;
-	position: fixed;
 }
 
 .container {
 	margin-left: auto;
 	margin-right: auto;
 	width:960px;
+	position: relative;
+	z-index:9999999;
 }
 
 .logo {
@@ -65,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:32px;
 	padding-left:110px;
 	margin-bottom:0px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.55);
 }
 
 .content h1 span {
@@ -81,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family:'ITCOfficinaSerW01-BdSC';
 	padding-left:110px;
 	margin-top:-10px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.55);
 }
 
 .content h2 span {
@@ -126,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right:25px;
 	margin-top:15px;
 	margin-bottom:15px;
+	text-shadow:-1px 0px 0px rgba(60, 60, 60, 0.55);
 }
 
 .debt-form-app input[type="text"] {
@@ -248,26 +252,50 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	color:#fff;
 	font-size:20px;
+	text-shadow:-1px -1px 0px rgba(60, 60, 60, 1);
 }
 
 .tab:hover {
 	background-image: url('images/orange-tab.png');
 	color:#e87c3f;
+	text-shadow:none;
 }
 
 
 .tab-hover {
 	background-image: url('images/orange-tab.png');
 	color:#e87c3f;
+	text-shadow:none;
 }
 
 .tab-text {
 	float:left;
-	width:586px;
+	width:576px;
 	background-image:url('images/content-mid.png');
 	background-repeat: repeat-y;
-	padding-left:40px;
-	padding-right:40px;
+	padding-left:45px;
+	padding-right:45px;
+	font-family: georgia;
+	font-size:14px;
+	color: #2b2d2d;
+	line-height: 27px;
+}
+
+.tab-text h2 {
+	font-size: 20px;
+	font-family:'ITCOfficinaSerW01-BdSC';
+	color:#f46413;
+	padding:0px;
+	margin:0px;
+	margin-top:20px;
+	margin-bottom:-8px;
+	text-transform: uppercase;
+}
+
+.tab-text p {
+	font-family: georgia;
+	font-size:14px;
+	color: #2b2d2d;
 }
 
 .sidebar {
@@ -299,6 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Trebuchet MS";
 	padding-bottom:10px;
 	padding-top:5px;
+	padding-right:20px;
 }
 
 .sidebar-module ul li {
@@ -326,19 +355,112 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 20px;
 	padding-top:4px;
 	text-transform: uppercase;
+	text-shadow:0px -1px 0px rgba(60, 60, 60, .55);
 }
 
 .tab-two, .tab-three, .tab-four {
 	display: none;
 }
 
+.jaged-grass {
+	background-image: url('images/jaged-grass.png');
+	background-repeat: repeat-x;
+	height:7px;
+	width:100%;
+	float:left;
+	position: relative;
+}
+
 .footer {
 	float:left;
+	position: relative;
 	width:100%;
-	height:326px;
+	height:319px;
 	background-image: url('images/footer-bg.png');
+	z-index:-1;
 }
 
 .footer ul {
 	float:left;
+	font-family: "Trebuchet MS";
+	font-size:18px;
+	color:#fff;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+	list-style: none;
+	width: 100%;
+}
+
+.footer ul li {
+	padding-top:13px;
+	padding-bottom:13px;
+	background-image:url('images/footer-line.png');
+	background-repeat: repeat-x;
+	background-position: 0px 44px;
+	text-shadow:0px -2px 0px #000;
+}
+
+.footer ul li:last-of-type {
+	background-image: none;
+}
+
+.left {
+	float: left;
+	background-image:url('images/footer-dirt.png');
+	width:223px;
+	height:88px;
+	margin-top:-30px;
+}
+
+.mid {
+	float:left;
+	width:285px;
+	height:88px;
+	background-image:url('images/footer-dirt-two.png');
+	margin-top:-30px;
+}
+
+.mid-footer ul {
+	max-width: 223px;
+	margin-left: auto;
+	margin-right: auto;
+	float:none;
+	margin-top:60px;
+}
+
+.right {
+	float:right;
+	width:223px;
+	height:88px;
+	background-image:url('images/footer-dirt-two.png');
+	margin-top:-30px;
+}
+
+.left h4, .mid h4, .right h4 {
+	color:#f46413;
+	font-family:'ITCOfficinaSerW01-BdSC';
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top:45px;
+	text-shadow:0px -2px 0px #000;
+}
+
+.left-footer {
+	float:left;
+	width:223px;
+	margin-right:94px;
+}
+
+.mid-footer {
+	float:left;
+	width:285px;
+
+}
+
+.right-footer {
+	float:right;
+	width:223px;
+
 }

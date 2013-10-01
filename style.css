@@ -363,6 +363,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 }
 
+.tab-text h4 {
+	font-size: 16px;
+	color:#f46413;
+	font-family: georgia;
+	font-weight: bold;
+}
+
 .tab-text p {
 	font-family: georgia;
 	font-size:16px;

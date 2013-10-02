@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	function trackEvent(category, action, label) {
+		_gaq.push(['_trackEvent', category, action, label,, false]);
+	}
 
 	function isValidEmailAddress(emailAddress) {
 		var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
@@ -10,6 +13,7 @@ $(document).ready(function(){
 
 	$('.debt-form-app .step-one button').click(function(event){
 		event.preventDefault();
+		trackEvent('Form Events', 'Step One', 'Completed');
 		$('.step-one').fadeOut();
 		$('.step-two').fadeIn();
 	});
@@ -21,16 +25,14 @@ $(document).ready(function(){
 			alert('Please Enter A Valid Zip Code.');		
 		}
 		else {
+			trackEvent('Form Events', 'Step Two', 'Completed');
 			$('.step-two').fadeOut();
 			$('.step-three').fadeIn();
 		}
 	});
 
-	$('.dbamt').click(function() {window.Ammount = $(this).val(); console.log(window.Ammount)});
-
 	$('.debt-form-app .step-three button').click(function(event){
 		event.preventDefault();
-
 
 		if(!$('.first-name').val()) {
 			$('.first-name').css({'border' : '1px solid #FF0000'});
@@ -53,13 +55,13 @@ $(document).ready(function(){
 		}
 
 		else {
+			trackEvent('Form Events', 'Step Three', 'Completed');
 			var DebtAmmount = window.Ammount;
 			var ZipCode = $('.zip').val();
 			var FirstName = $('.first-name').val();
 			var LastName = $('.last-name').val();
 			var Email = $('.email').val();
 			var PhoneNumber = $('.areacode').val() + $('.prefix').val() + $('.suffix').val();
-
 			$.ajax({
 				type:"POST",
 				url: "process.php",

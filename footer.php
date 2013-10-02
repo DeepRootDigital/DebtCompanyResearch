@@ -8,7 +8,7 @@
 				<ul>
 					<li><a href="/who-we-are.php">Who We Are</a></li>
 					<li><a href="/how-we-research.php">How We Research</a></li>
-					<li><a href="/our-results.php">Our Results</li>
+					<li><a href="/our-results.php">Our Results</a></li>
 				</ul>
 				<img class="gopher" src="images/gopher.png">
 			</div>

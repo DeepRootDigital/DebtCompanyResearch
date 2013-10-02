@@ -24,7 +24,7 @@
 		</div>
 		<div class="step-three">
 			<div class="left-form">
-				<h4>Yes, we do have a suggestion for you!</h4>
+				<h4>Yes! We Have a Company for You.</h4>
 				<ul>
 					<li><img src="images/checkmark.png">"A" BBB Rating</li>
 					<li><img src="images/checkmark.png">8+ YRS. In Business</li>
@@ -37,6 +37,7 @@
 				<input name="lname" class="last-name" type="text" placeholder="Last Name">
 				<input name="email" class="email" type="email" placeholder="Email">
 				<div class="phone-info">
+					<label>Phone Number:</label>
 					<input size="4" class="phone-lit areacode" type="text" placeholder="(XXX)" maxlength="3">
 					<input size="4" class="phone-lit prefix" type="text" placeholder="XXX" maxlength="3">
 					<input size="5" class="phone-lit suffix" type="text" placeholder="XXXX" maxlength="4">

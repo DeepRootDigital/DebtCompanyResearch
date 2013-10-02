@@ -11,6 +11,7 @@
 	background-size: contain;
 	height: 650px;
 	width: 100%;
+	min-width:1900px;
 }
 
 .land {
@@ -99,6 +100,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right:auto;
 	text-align: center;
 	position: relative;
+	-webkit-box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 10px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 10px rgba(50, 50, 50, 0.75);
+	border-radius:9px;
 }
 
 .debt-form-app h3 {
@@ -174,8 +179,9 @@ h1, h2, h3, h4, h5, h6 {
 	width:281px;
 	height: 61px;
 	position: absolute;
-	margin-top: -50px;
-	margin-left: -140px;
+	left:50%;
+	margin-left:-140px;
+	margin-top:-50px;
 	text-transform: uppercase;
 }
 
@@ -222,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 .left-form h5 {
 	font-family: "Trebuchet MS";
 	font-size:20px;
-	color:#505050;
+	color:#37A556;
 	margin-top:10px;
 }
 
@@ -230,6 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 	float:right;
 	margin-right:40px;
 	margin-top:20px;
+	max-width:250px;
 }
 
 .right-form input[type=text] {
@@ -318,6 +325,9 @@ h1, h2, h3, h4, h5, h6 {
 	color:#fff;
 	font-size:20px;
 	text-shadow:-1px -1px 0px rgba(60, 60, 60, 1);
+	-webkit-box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 10px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 10px rgba(50, 50, 50, 0.75);
 }
 
 .tab:hover {
@@ -387,6 +397,9 @@ h1, h2, h3, h4, h5, h6 {
 	background-image:url('images/sidebar-panel-bg.png');
 	border-radius:10px;
 	color:#fff;
+	-webkit-box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 10px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 10px rgba(50, 50, 50, 0.75);
 }
 
 .sidebar-module p {
@@ -557,6 +570,28 @@ h1, h2, h3, h4, h5, h6 {
 .gopher {
 	margin-top:5px;
 	margin-left:50px;
+}
+
+.phone-info {
+	float:right;
+}
+
+.phone-info label {
+	clear: both;
+	display: block;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #757575;
+	text-align: right;
+
+}
+
+.baloon {
+	position: absolute;
+	top:200px;
+	left:0px;
+	z-index: 99999;
+	margin-left:-90px;
 }
 
 ::-webkit-input-placeholder { color:#3195be; }

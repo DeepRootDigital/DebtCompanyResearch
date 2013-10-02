@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
 <div class="container">
+	<img src="images/baloon.png" class="baloon">
 	<div class="content">
 		<h1>Debt Company Reviews <span>&</span> Research You Can Trust</h1>
 		<img class="divider" src="images/plane-divider.png">
@@ -7,7 +8,7 @@
 		<?php include 'form-app.php'; ?>
 		<div class="tabbed-content">
 			<div class="tab-navigation">
-				<div class="tab one">
+				<div class="tab one tab-hover">
 					Top Rated Firms
 				</div>
 				<div class="tab two">

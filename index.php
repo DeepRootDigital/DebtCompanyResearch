@@ -4,7 +4,7 @@
 	<div class="content">
 		<h1>Debt Company Reviews <span>&</span> Research You Can Trust</h1>
 		<img class="divider" src="images/plane-divider.png">
-		<h2>Find a Safe <span>&</span> Honest Company Now</h2>
+		<h2>Get your <span>free</span> report now! - Best Companies</h2>
 		<?php include 'form-app.php'; ?>
 		<div class="tabbed-content">
 			<div class="tab-navigation">
@@ -15,7 +15,7 @@
 					Free Matching
 				</div>
 				<div class="tab three">
-					Over 65,000 Helped
+					Thousands Helped
 				</div>
 				<div class="tab four">
 					Debt Free Safely!
@@ -48,7 +48,7 @@
 					<div class="tab-three">
 						<img class="tab-image" src="images/nicole-body.png">
 						<div class="tab-content-wrap">
-							<p>We are a team of hardworking people with husbands, wives, and kids, probably just like you - but most importantly, we're insiders - we have debt relief industry experience since 2006!</p>
+							<p>We are a team of hardworking people with husbands, wives, and kids, probably just like you - but most importantly, we're insiders - we have debt relief industry experience.</p>
 							<p>Over the years ten's of thousands of people have benefitted from our research and suggestions. We help people all day, every day and we love the feedback we get from people relieved to have found our service.</p>
 							<p>There's no better feeling than opening emails from people relieved to finally see light at the end of a tunnel. They are ecstatic to finally feel as though they are in trustworthy hands that will lead them out of debt.</p>
 							<p>Every financial situation is unique, the goal is to find you the right solution for you!</p>
@@ -67,7 +67,7 @@
 				</div>
 				<img src="images/content-bottom.png">
 			</div>
-			<?php include 'sidebar.php'; ?>
+			<?php include 'sidebar-homepage.php'; ?>
 		</div>
 	</div>
 </div>

@@ -7,10 +7,10 @@ $LastName = $_POST['last-name'];
 $PhoneNumber = $_POST['phonenumber'];
 $toEmail = $_POST['email'];
 
-$to      = 'reports@debtcompanyresearch.com';
+$to      = 'reports@debtcompanyresearch.com, nick@businessonmarketst.com, bob@businessonmarketst.com';
 $subject = 'New Approved Debt Lead';
 
-$message = 'The Following Lead has passed all pre-screening elements. '.'Name:'.$FirstName.' '.$LastName.' Phone Number:'.$PhoneNumber.' Email:'. $toEmail. ' Debt Ammount:'. $DebtAmmount;
+$message = 'The Following Lead has passed all pre-screening elements. '.'Zip:'.$ZipCode.' '.'Name:'.$FirstName.' '.$LastName.' Phone Number:'.$PhoneNumber.' Email:'. $toEmail. ' Debt Amount:'. $DebtAmmount;
 
 $headers = 'From:'. $toEmail . "\r\n" .
     'Reply-To: reports@debtcompanyresearch.com' . "\r\n" .

@@ -1,4 +1,36 @@
 <div class="sidebar">
+<div class="sidebar-module">
+		<div class="sidebar-header">
+			<h4>&#183; Free Report &amp; Consult &#183;</h4>
+		</div>
+		<form class="contactForm" action="" method="POST" onsubmit="">
+			<p>Your Debt</p>
+			<select name="debt" class="debt required">
+<option value="nil">Please select a value</option>
+<option value="5000">$5,000</option>
+<option value="7000">$7,000</option>
+<option value="10000">$10,000</option>
+<option value="15000">$15,000</option>
+<option value="20000">$20,000</option>
+<option value="30000">$30,000</option>
+<option value="50000">$50,000</option>
+<option value="70000">$70,000+</option>
+</select>
+			<p>Zip Code</p>
+			<input name="zip" type="text" placeholder="ie: 94304" class="zip required" maxlength="5" required>
+			<p>First Name</p>
+			<input name="fname" type="text" placeholder="ie: Bob" class="fname required" required>
+			<p>Last Name</p>
+			<input name="lname" type="text" placeholder="ie: Williams" class="lname required" required>
+			<p>Email</p>
+			<input name="email" type="text" placeholder="ie: email@domain.com" class="email required" required>
+			<p>Phone</p>
+			<input name="phonefirst" type="text" placeholder="ie: 387" class="phone phonefirst required" maxlength="3" required>
+			<input name="phonesecond" type="text" placeholder="ie: 987" class="phone required" maxlength="3" required>
+			<input name="phonethird" type="text" placeholder="ie: 3929" class="phonelong required" maxlength="4" required>
+			<input class="submit-form-ajax" type="image" src="images/sidebar-submit-btn.png">
+		</form>
+	</div>
 			<div class="sidebar-module">
 				<div class="sidebar-header">
 					<h4>&#183; Finding Help Tips &#183;</h4>

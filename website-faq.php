@@ -6,7 +6,7 @@
 				<h2>Website FAQ:</h2>
 				<img src="images/tab-divider.png">
 				<h4>Who are you?</h4>
-				<p>We are a small group of people in business to help people like you find honest and reputable debt relief companies. You can read more about us here.We are a small group of people in business to help people like you find honest and reputable debt relief companies. You can read more about us here.</p>
+				<p>We are a small group of people in business to help people like you find honest and reputable debt relief companies. We are a small group of people in business to help people like you find honest and reputable debt relief companies. You can read more about us <a href="/who-we-are.php">here.</a></p>
 				<h4>Do you offer debt counseling?</h4>
 				<p>No, we do not. We leave that up to the companies we've thoroughly researched and suggest to you when you request help from us. They will offer you a free counseling session and help you determine the best way for you to get out of debt.</p>
 				<h4>Do you work for the companies you suggest?</h4>

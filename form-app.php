@@ -17,9 +17,9 @@
 		<div class="step-two">
 			<h3>What is your Zip Code?</h3>
 			<input name="zipcode" placeholder="zipcode" class="zip" type="text" maxlength="5">
-			<p>{to help determine if we have a match}</p>
+			<p>{to see if we have a match - step 2 of 3 }</p>
 			<div class="outlet">
-				<button>check now</button>
+				<button>next step</button>
 			</div>
 		</div>
 		<div class="step-three">
@@ -29,13 +29,14 @@
 					<li><img src="images/checkmark.png">"A" BBB Rating</li>
 					<li><img src="images/checkmark.png">8+ YRS. In Business</li>
 					<li><img src="images/checkmark.png">Over 11,000 Happy Clients</li>
-					<h5>Get Free Report, Savings Quote</h5>
+					<h5>Get Free Report &<br> Savings Quote</h5>
 				</ul>
+				<img class="garrow" src="images/green-arrow.png">
 			</div>
 			<div class="right-form">
 				<input name="fname" class="first-name" type="text" placeholder="First Name">
 				<input name="lname" class="last-name" type="text" placeholder="Last Name">
-				<input name="email" class="email" type="email" placeholder="Email">
+				<input name="email" class="email" type="email" required placeholder="Email">
 				<div class="phone-info">
 					<label>Phone Number:</label>
 					<input size="4" class="phone-lit areacode" type="text" placeholder="(XXX)" maxlength="3">
@@ -44,7 +45,7 @@
 				</div>
 			</div>
 			<div class="outlet">
-				<button>Get Debt Free</button>
+				<button>Get Report Now</button>
 			</div>
 		</div>
 		<div class="step-four">

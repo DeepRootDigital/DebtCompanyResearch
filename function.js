@@ -13,6 +13,7 @@ $(document).ready(function(){
 
 	$('.debt-form-app .step-one button').click(function(event){
 		event.preventDefault();
+		window.Ammount = $(this).val();
 		trackEvent('Form Events', 'Step One', 'Completed');
 		$('.step-one').fadeOut();
 		$('.step-two').fadeIn();
@@ -30,6 +31,10 @@ $(document).ready(function(){
 			$('.step-three').fadeIn();
 		}
 	});
+	
+	$("input").on("keydown", function (e) {
+		return e.which !== 32;
+	});
 
 	$('.debt-form-app .step-three button').click(function(event){
 		event.preventDefault();
@@ -38,40 +43,37 @@ $(document).ready(function(){
 			$('.first-name').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter Your First Name.');
 		}
-
-		if(!$('.last-name').val()) {
+		else if(!$('.last-name').val()) {
 			$('.last-name').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter Your Last Name.');
 		}
-
-		if(!$('.email').val() || !isValidEmailAddress($('.email').val())) {
+		else if(!$('.email').val() || !isValidEmailAddress($('.email').val()) || $.trim($('.email').val()).length < 3 ) {
 			$('.email').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter A Valid Email.');
 		}
-
-		if(!$('.areacode').val() || !$('.prefix').val() || !$('.suffix').val() ) {
+		else if(!$('.areacode').val() || $('.areacode').val().length < 3 || !$('.prefix').val() || $('.prefix').val().length < 3 || !$('.suffix').val() || $('.suffix').val().length < 4  ) {
 			$('.phone-lit').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter a valid Phone Number.');
 		}
-
-		else {
+		else {		
 			trackEvent('Form Events', 'Step Three', 'Completed');
 			var DebtAmmount = window.Ammount;
 			var ZipCode = $('.zip').val();
 			var FirstName = $('.first-name').val();
 			var LastName = $('.last-name').val();
 			var Email = $('.email').val();
-			var PhoneNumber = $('.areacode').val() + $('.prefix').val() + $('.suffix').val();
+			var PhoneNumber = $('.areacode').val() + '-' + $('.prefix').val() + '-' + $('.suffix').val();
 			$.ajax({
 				type:"POST",
 				url: "process.php",
-				data: 'debt-ammount='+DebtAmmount+'&first-name='+FirstName+'&last-name='+LastName+'&email='+Email+'&phonenumber='+PhoneNumber,
+				data: 'debt-ammount='+DebtAmmount+'&first-name='+FirstName+'&last-name='+LastName+'&email='+Email+'&phonenumber='+PhoneNumber+'&zip-code='+ZipCode,
 				success: function(){}
 
 			});
 
 			$('.step-three').hide();
 			$('.step-four').show();
+			
 		}
 	});
 	//Tab Functionality

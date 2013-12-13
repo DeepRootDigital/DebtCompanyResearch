@@ -54,3 +54,5 @@
                     <img alt="faces of debt" src="images/faces.png">    
                 </div>
             </div>
+         </div>
+         </div>

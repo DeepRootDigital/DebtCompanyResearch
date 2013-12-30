@@ -2,6 +2,7 @@
 <div class="footer-privacy">Privacy</div>
 <p>    |    </p>
 <div class="footer-terms">Terms</div>
+<p>By using this site and/or providing your personal information and clicking the submit button, you are stating that you have read all terms and conditions and privacy statement contained on this website and that you agree to be bound by those terms of use. You are also agreeing and consenting to be matched with third parties in our network and you consent for those in our network to contact you through live, automated, recorded, mobile device, text message, or email, notwithstanding the registration of your telephone number on any Do Not Call Registry. Those companies in our network will provide you with information on their financial assistance services which you are expressing interest in.</p>
 </div>
 	</div>
 

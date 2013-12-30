@@ -1,0 +1,111 @@
+html {
+background-color:transparent !important;
+}
+
+body {
+}
+
+.header {
+z-index: -1;
+position: relative;
+}
+
+.clouds {
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index:10000;
+	background-image: url("images/clouds.png");
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	overflow:hidden;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	position: relative;
+	z-index:9999999;
+        text-align:center;
+}
+
+.logo {
+	text-align:left;
+	margin-top:30px;
+        margin-bottom:45px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'OfficinaSerifITCW01-Bol 734534';
+	font-weight: normal;
+	margin:0px;
+        font-size:21px;
+        line-height:30px;
+        letter-spacing:1px;
+}
+
+.optout-button {
+background-image:url('images/debt-opt-out.png');
+width:909px;
+height:52px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:20px;
+}
+
+.container h2 {
+color:#45525c;
+margin-bottom:35px;
+}
+
+.container h3{
+color:#f27028;
+margin-top:45px;
+}
+
+.container h4 {
+text-transform:uppercase;
+color:#266691;
+margin-bottom:45px;
+}
+
+.container p {
+color:#46525c;
+font-size:18px;
+line-height:20px;
+font-family: 'Lato', sans-serif;
+font-weight:700;
+}
+
+.container p span {
+color:#ea6f2b;
+}
+
+.link,
+.link a,
+#SignUp .signupframe {
+ color: #226699;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ }
+
+ .link,
+ .link a {
+  text-decoration: none;
+  }
+
+ #SignUp .signupframe {
+  border: 1px solid #000000;
+  background: #ffffff;
+  }
+
+#SignUp .signupframe .required {
+ font-size: 10px;
+ }
+
+form {
+padding-left:355px;
+}
+

@@ -1,0 +1,218 @@
+html {
+background-color:transparent !important;
+}
+
+body {
+}
+
+.header {
+z-index: -1;
+position: relative;
+}
+
+.clouds {
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index:10000;
+	background-image: url("images/clouds.png");
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	overflow:hidden;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	position: relative;
+	z-index:9999999;
+}
+
+.logo {
+	float:left;
+	margin-top:30px;
+        margin-bottom:45px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'OfficinaSerifITCW01-Bol 734534';
+	font-weight: normal;
+	margin:0px;
+        font-size:21px;
+        line-height:30px;
+        letter-spacing:1px;
+}
+
+p {
+	font-family:'Lato';
+	font-weight:700;
+	margin:0;
+}
+
+.success-banner {
+	float:left;
+	width:909px;
+	height:52px;
+	background-image:url('images/success-banner.png');
+}
+
+.scott-face {
+	float:left;
+	background-image:url('images/scott.png');
+	width:162px;
+	height:206px;
+	margin-top: 14px;
+	margin-left: 44px;
+}
+
+.scott-message {
+	float: left;
+	width: 670px;
+	text-align: left;
+	margin-left:30px;
+	margin-top:24px;
+}
+
+.scott-message p {
+	font-size:14px;
+	color:#46525c;
+	line-height:18px;
+	margin-bottom: 18px;
+}
+
+.content-panel {
+	width:915px;
+	height:809px;
+	float:left;
+	background-image:url('images/content-box-bg.png');
+	display:none;
+}
+
+.delray {
+	display:block;
+}
+
+.left-arrow-space {
+	width:221px;
+	height:400px;
+	float:left;
+	background-image:url('images/greenarrow.png');
+	background-repeat:no-repeat;
+	background-position: 186px 42px;
+	margin-right:20px;
+}
+
+.right-content {
+	width:640px;
+	float:left;
+	padding-top:18px;
+	margin-bottom:25px;
+}
+
+.right-content p,.right-content-two p {
+	color:#47535c;
+	font-size:20px;
+	line-height:32px;
+}
+
+.right-content h1 {
+	font-size:28px;
+	line-height:36px;
+	color:#266691;
+}
+
+.right-content-two {
+	width:640px;
+	float:left;
+	margin-bottom:25px;
+}
+
+.right-content-two p span {
+	color:#ea6f2b;
+}
+
+.full-report-text {
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.full-report-text p {
+	font-weight:400;
+	font-style:italic;
+	font-size:20px;
+	line-height:36px;
+	color:#46525c;
+}
+
+.content-bottom {
+	width:100%;
+	float:left;
+}
+
+.content-bottom-left {
+	width:290px;
+	float:left;
+	margin-left:50px;
+	margin-top: 20px;
+}
+
+.content-bottom-left h3 {
+	font-size:25px;
+	color:#266e9e;
+}
+
+.content-bottom-left p {
+	color:#43505a;
+	font-size:21px;
+	line-height:32px;
+	font-family:'OfficinaSerifITCW01-Bol 734534';
+}
+
+.content-bottom-left p span {
+	color:#f46b1f;
+}
+
+.debt-help-book {
+	float:left;
+	margin-left:15px;
+	background-image:url('images/debt-book.png');
+	width:178px;
+	height:242px;
+}
+
+.download-report {
+	float:left;
+	background-image:url('images/downloadbutton.png');
+	width:300px;
+	height:51px;
+	margin-left:30px;
+	margin-top: 95px;
+}
+
+.footer-content {
+	float:left;
+	padding-top:5px;
+	padding-bottom:40px;
+}
+
+.footer-privacy,.footer-terms{
+	float:left;
+}
+
+.footer-privacy {
+	margin-right:15px;
+}
+
+.footer-terms {
+	margin-left:15px;
+}
+
+.footer-content p {
+	float:left;
+	font-size:12px;
+	color:#46525c;
+}

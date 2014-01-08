@@ -3,77 +3,76 @@ $(document).ready(function(){
 		_gaq.push(['_trackEvent', category, action, label,, false]);
 	}
 
-	function isValidEmailAddress(emailAddress) {
-		var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
-		return pattern.test(emailAddress);
-	};
-
 	//Default Animations
 	$('.clouds').pan({fps: 20, speed: .60, dir: 'left'});
 
-	$('.debt-form-app .step-one button').click(function(event){
-		event.preventDefault();
-		trackEvent('Form Events', 'Step One', 'Completed');
-		$('.step-one').fadeOut();
-		$('.step-two').fadeIn();
-	});
+	// Validation
 
-	$('.debt-form-app .step-two button').click(function(event){
+$('.submit-form-ajax').click(function(event){
 		event.preventDefault();
-		if (!$('.zip').val() || $('.zip').val().length != 5) {
-			$('.zip').css({'border' : '1px solid #FF0000'});
-			alert('Please Enter A Valid Zip Code.');		
-		}
-		else {
-			trackEvent('Form Events', 'Step Two', 'Completed');
-			$('.step-two').fadeOut();
-			$('.step-three').fadeIn();
-		}
-	});
-
-	$('.debt-form-app .step-three button').click(function(event){
-		event.preventDefault();
-
-		if(!$('.first-name').val()) {
-			$('.first-name').css({'border' : '1px solid #FF0000'});
+                
+                if ($('.debt').val() == "nil") {
+                        $('.debt').css({'border' : '1px solid #FF0000'});
+			alert('Please choose a debt amount.');
+                } else if(!$('.zip').val()) {
+                        $('.zip').css({'border' : '1px solid #FF0000'});
+			alert('Please Enter Your Zip Code.');
+                }
+		else if(!$('.fname').val()) {
+			$('.fname').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter Your First Name.');
-		}
-
-		if(!$('.last-name').val()) {
-			$('.last-name').css({'border' : '1px solid #FF0000'});
+		} 
+                else if(!$('.lname').val()) {
+			$('.lname').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter Your Last Name.');
-		}
-
-		if(!$('.email').val() || !isValidEmailAddress($('.email').val())) {
+		} 
+		else if(!$('.email').val() || !isValidEmailAddress($('.email').val()) || $.trim($('.email').val()).length < 3 ) {
 			$('.email').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter A Valid Email.');
 		}
-
-		if(!$('.areacode').val() || !$('.prefix').val() || !$('.suffix').val() ) {
+		else if(!$('.areacode').val() || $('.areacode').val().length < 3 || !$('.prefix').val() || $('.prefix').val().length < 3 || !$('.suffix').val() || $('.suffix').val().length < 4  ) {
 			$('.phone-lit').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter a valid Phone Number.');
 		}
-
 		else {
-			trackEvent('Form Events', 'Step Three', 'Completed');
 			var DebtAmmount = window.Ammount;
 			var ZipCode = $('.zip').val();
 			var FirstName = $('.first-name').val();
 			var LastName = $('.last-name').val();
 			var Email = $('.email').val();
-			var PhoneNumber = $('.areacode').val() + $('.prefix').val() + $('.suffix').val();
-			$.ajax({
-				type:"POST",
-				url: "process.php",
-				data: 'debt-ammount='+DebtAmmount+'&first-name='+FirstName+'&last-name='+LastName+'&email='+Email+'&phonenumber='+PhoneNumber,
-				success: function(){}
-
+			var PhoneNumber = $('.areacode').val() + '-' + $('.prefix').val() + '-' + $('.suffix').val();
+                        if ($('.glow').html() < 6) {
+		$('.glow').html('6');
+		$('.phasebg').fadeOut(100,function(){
+			$('.phase6').fadeIn(300,function(){
+				$('.phase1').fadeOut(300);
+				$('.phase2').fadeOut(300);
+				$('.phase3').fadeOut(300);
+				$('.phase4').fadeOut(300);
+				$('.phase5').fadeOut(300);
+				$('.top-headline').fadeOut(300);
+				$('.free-report').fadeOut(300);
+				$('.checkmarks-area').fadeOut(300);
+				$('.blurbs').fadeOut(300);
+				$('.rounded-arrow').fadeOut(300);
+				$('.form-area').css('display','none');
+				$('.form-area-final').fadeIn(300);
+				$('.final-stage-ticket').fadeIn(300);
 			});
-
-			$('.step-three').hide();
-			$('.step-four').show();
+		});
+                }
 		}
 	});
+	
+	$("input").on("keydown", function (e) {
+		return e.which !== 32;
+	});
+
+        function isValidEmailAddress(emailAddress) {
+		var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+		return pattern.test(emailAddress);
+	};
+
 	//Tab Functionality
 
 	function TabBuffer() {

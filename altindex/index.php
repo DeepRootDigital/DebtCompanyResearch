@@ -23,9 +23,11 @@
 				<p>Email</p>
 				<input name="email" type="text" placeholder="ie: email@domain.com" class="email required" required>
 				<p>Phone</p>
-				<input name="phonefirst" type="text" placeholder="ie: 387" class="phone required" maxlength="3" required>
-				<input name="phonesecond" type="text" placeholder="ie: 987" class="phone required" maxlength="3" required>
-				<input name="phonethird" type="text" placeholder="ie: 3929" class="phonelong required" maxlength="4" required>
+				<input name="phonefirst" type="text" placeholder="ie: 387" class="areacode phone required" maxlength="3" required>
+				<input name="phonesecond" type="text" placeholder="ie: 987" class="prefix phone required" maxlength="3" required>
+				<input name="phonethird" type="text" placeholder="ie: 3929" class="suffix phonelong required" maxlength="4" required>
+                                        <input name="sid" type="hidden" value="<?php echo $_GET['sid'] ?>">
+                                        <input name="pid" type="hidden" value="<?php echo $_GET['pid'] ?>">
 				<input class="submit-form-ajax" type="image" src="images/form-button.png">
 			</form>
 		</div>

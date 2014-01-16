@@ -709,6 +709,16 @@ margin-top: 15px;
 line-height: 15px;
 }
 
+.footer-section a {
+color:#000000;
+text-decoration:underline;
+}
+
+.footer-section h6 {
+font-size:10px;
+display: block;
+}
+
 .close-popout {
 position:fixed;
 width:100%;

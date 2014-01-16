@@ -3,13 +3,13 @@
 <head>
     <title>Debt Company Research</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link href="../normalize.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="http://debtcompanyresearch.com/thankyou/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="http://debtcompanyresearch.com/thankyou/style.css" rel="stylesheet" type="text/css" />
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="http://fast.fonts.net/jsapi/6dbe4694-2b80-4458-8fce-b314a507def2.js"></script>
-    <script src="../function.js"></script>
-    <script src="functions.js"></script>  
-    <script src="../js/spritely.js" type="text/javascript"></script>
+    <script src="http://debtcompanyresearch.com/function.js"></script>
+    <script src="http://debtcompanyresearch.com/thankyou/functions.js"></script>  
+    <script src="http://debtcompanyresearch.com/js/spritely.js" type="text/javascript"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -62,6 +62,7 @@
                 <p>Thank You!</p>
                 <p>Scott</p>
             </div>
+<?php if (trim($_GET["chosen"]) == "delray") { ?>
             <div class="content-panel delray">
                 <div class="left-arrow-space">
                 </div>
@@ -95,6 +96,8 @@
                     </div><a href="pdf/Cambridge_Report.pdf">
                 </div>
             </div>
+<?php } 
+if (trim($_GET["chosen"]) == "cambridge") { ?>
             <div class="content-panel cambridge">
                 <div class="left-arrow-space">
                 </div>
@@ -128,6 +131,8 @@
                     </div></a>
                 </div>
             </div>
+<?php }
+if (trim($_GET["chosen"]) == "national") { ?>
             <div class="content-panel national">
                 <div class="left-arrow-space">
                 </div>
@@ -161,6 +166,8 @@
                     </div></a>
                 </div>
             </div>
+<?php }
+if (trim($_GET["chosen"]) == "pacific") { ?>
             <div class="content-panel pacific">
                 <div class="left-arrow-space">
                 </div>
@@ -194,6 +201,8 @@
                     </div></a>
                 </div>
             </div>
+<?php }
+if (trim($_GET["chosen"]) == "superior") { ?>
             <div class="content-panel superior">
                 <div class="left-arrow-space">
                 </div>
@@ -227,6 +236,7 @@
                     </div></a>
                 </div>
             </div>
+<?php } ?>
             <div class="footer-content">
                 <div class="footer-privacy">
                     <p>Privacy</p>

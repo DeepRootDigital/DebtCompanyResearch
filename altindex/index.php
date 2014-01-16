@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 			<img src="images/free-report-button.png" class="report-button" alt="Free Report Button" />
 		<div class="form-area">
-			<form class="contactForm" action="" method="POST" onsubmit="">
+			<form class="contactForm" action="mailformprocess.php" method="POST" onsubmit="">
 				<p>Your Debt</p>
 				<select name="debt" class="debt required">
 <option value="nil">Please select a value</option>

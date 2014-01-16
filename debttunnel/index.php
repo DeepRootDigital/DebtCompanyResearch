@@ -95,9 +95,8 @@
 				</div>
 			</div>
 			<div class="form-fillout">
-				<form class="contactForm" action="" method="POST" onsubmit="event.preventDefault();">
+				<form class="contactForm" action="mailformprocess.php" method="POST" onsubmit="event.preventDefault();">
 					<p>Your Debt</p>
-					<!-- <input name="debt" type="text" placeholder="ie: 4000" class="debt required" required> -->
 <select name="debt" class="debt required">
 <option value="nil">Please select a value</option>
 <option value="5000">$5,000</option>
@@ -243,6 +242,8 @@
 <p>    |    </p>
 <div class="footer-terms">Terms</div>
 <p>By using this site and/or providing your personal information and clicking the submit button, you are stating that you have read all terms and conditions and privacy statement contained on this website and that you agree to be bound by those terms of use. You are also agreeing and consenting to be matched with third parties in our network and you consent for those in our network to contact you through live, automated, recorded, mobile device, text message, or email, notwithstanding the registration of your telephone number on any Do Not Call Registry. Those companies in our network will provide you with information on their financial assistance services which you are expressing interest in.</p>
+<a href="http://debtcompanyresearch.com/optout/">Unsubscribe</a>
+<h6>7975 Raytheon Rd <br />San Diego, CA 92111</h6>
 </div>
 <div class="final-step-thankyou-panels">
 <div class="success-banner">

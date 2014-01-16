@@ -9,7 +9,7 @@ $(document).ready(function(){
 	// Validation
 
 $('.submit-form-ajax').click(function(event){
-		event.preventDefault();
+		
                 
                 if ($('.debt').val() == "nil") {
                         $('.debt').css({'border' : '1px solid #FF0000'});
@@ -59,6 +59,17 @@ $('.submit-form-ajax').click(function(event){
 				$('.form-area-final').fadeIn(300);
 				$('.final-stage-ticket').fadeIn(300);
 			});
+		});
+                var frm = $('.contactForm');
+                $.ajax({
+			type: frm.attr('method'),
+			url: 'mailformprocess.php',
+			data: frm.serialize(),
+			success: function (data) {
+			},
+			error: function(data){
+			}
+
 		});
                 }
 		}

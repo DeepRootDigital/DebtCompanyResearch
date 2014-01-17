@@ -50,9 +50,21 @@
                 <div class="logo">
                     <a href="http://debtcompanyresearch.com"><img alt="debt relief logo" src="images/logo.png"></a>
                 </div>
-                <div class="faces">
-                    <img alt="faces of debt" src="images/faces.png">    
-                </div>
             </div>
-         </div>
-         </div>
+<div class="container">
+	<div class="content">
+		<img src="images/free-report-banner.png" class="report-banner" alt="Free Report Banner" />
+		<div class="checkmarks-section">
+			<div class="checkmarks-single">
+				<p>Our Reviews Are Real</p>
+			</div>
+			<div class="checkmarks-single">
+				<p>Helping People Since 2006</p>
+			</div>
+			<div class="checkmarks-single">
+				<p>Over 69,500 People Helped</p>
+			</div>
+			<div class="checkmarks-single">
+				<p>All Firms FTC Laws Compliant</p>
+			</div>
+		</div>

@@ -775,3 +775,53 @@ Stack trace:
 #0 /home/debtco/public_html/altindex/mailformprocess.php(46): SimpleXMLElement->__construct('<!DOCTYPE html>...')
 #1 {main}
   thrown in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 43: parser error : Opening and ending tag mismatch: link line 5 and head in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/head&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 50: parser error : Opening and ending tag mismatch: img line 50 and a in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): //debtcompanyresearch.com&quot;&gt;&lt;img alt=&quot;debt relief logo&quot; src=&quot;images/logo.png&quot;&gt;&lt;/a in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 51: parser error : Opening and ending tag mismatch: a line 50 and div in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():             &lt;/div&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                   ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 76: parser error : Entity 'raquo' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;In Business Since:&lt;/span&gt; 2002&lt;/p&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 77: parser error : Entity 'raquo' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;BBB Rating:&lt;/span&gt; A+&lt;/p&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 78: parser error : Entity 'raquo' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Non-Profit:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 79: parser error : Entity 'raquo' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Follow all FTC laws:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 80: parser error : Entity 'raquo' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Certifications:&lt;/span&gt; BSI Certified, AFCC  in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 224: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): 19696b706f787a60597d7c7b6d7a7674697877606b7c6a7c786b7a71377a767437&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 230: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): =&quot;93e3e1fae5f2f0ead3f7f6f1e7f0fcfee3f2fdeae1f6e0f6f2e1f0fbbdf0fcfe&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 319: parser error : Entity 'copy' not defined in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): mark Notice Info.&lt;/strong&gt; All contents of the DCR Website are: Copyright &amp;copy; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 444: parser error : Opening and ending tag mismatch: div line 45 and body in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/body&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Opening and ending tag mismatch: body line 44 and html in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag head line 3 in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag html line 2 in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[16-Jan-2014 17:55:06 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/debtco/public_html/altindex/mailformprocess.php:46
+Stack trace:
+#0 /home/debtco/public_html/altindex/mailformprocess.php(46): SimpleXMLElement->__construct('<!DOCTYPE html>...')
+#1 {main}
+  thrown in /home/debtco/public_html/altindex/mailformprocess.php on line 46

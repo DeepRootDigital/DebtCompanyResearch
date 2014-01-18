@@ -12,25 +12,31 @@ $('.submit-form-ajax').click(function(event){
 		
                 
                 if ($('.debt').val() == "nil") {
+                        event.preventDefault();
                         $('.debt').css({'border' : '1px solid #FF0000'});
 			alert('Please choose a debt amount.');
                 } else if(!$('.zip').val()) {
+                        event.preventDefault();
                         $('.zip').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter Your Zip Code.');
                 }
 		else if(!$('.fname').val()) {
+                        event.preventDefault();
 			$('.fname').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter Your First Name.');
 		} 
                 else if(!$('.lname').val()) {
+                        event.preventDefault();
 			$('.lname').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter Your Last Name.');
 		} 
 		else if(!$('.email').val() || !isValidEmailAddress($('.email').val()) || $.trim($('.email').val()).length < 3 ) {
+                        event.preventDefault();
 			$('.email').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter A Valid Email.');
 		}
 		else if(!$('.areacode').val() || $('.areacode').val().length < 3 || !$('.prefix').val() || $('.prefix').val().length < 3 || !$('.suffix').val() || $('.suffix').val().length < 4  ) {
+                        event.preventDefault();
 			$('.phone-lit').css({'border' : '1px solid #FF0000'});
 			alert('Please Enter a valid Phone Number.');
 		}
@@ -41,25 +47,8 @@ $('.submit-form-ajax').click(function(event){
 			var LastName = $('.last-name').val();
 			var Email = $('.email').val();
 			var PhoneNumber = $('.areacode').val() + '-' + $('.prefix').val() + '-' + $('.suffix').val();
-                        if ($('.glow').html() < 6) {
-		$('.glow').html('6');
-		$('.phasebg').fadeOut(100,function(){
-			$('.phase6').fadeIn(300,function(){
-				$('.phase1').fadeOut(300);
-				$('.phase2').fadeOut(300);
-				$('.phase3').fadeOut(300);
-				$('.phase4').fadeOut(300);
-				$('.phase5').fadeOut(300);
-				$('.top-headline').fadeOut(300);
-				$('.free-report').fadeOut(300);
-				$('.checkmarks-area').fadeOut(300);
-				$('.blurbs').fadeOut(300);
-				$('.rounded-arrow').fadeOut(300);
-				$('.form-area').css('display','none');
-				$('.form-area-final').fadeIn(300);
-				$('.final-stage-ticket').fadeIn(300);
-			});
-		});
+                $('.loading-screen').css('display','block');    
+                loadingscreen();
                 var frm = $('.contactForm');
                 $.ajax({
 			type: frm.attr('method'),
@@ -71,7 +60,6 @@ $('.submit-form-ajax').click(function(event){
 			}
 
 		});
-                }
 		}
 	});
 	
@@ -137,4 +125,16 @@ $('.submit-form-ajax').click(function(event){
             $('.privacy-popout').css('display','none');
             $('.terms-popout').css('display','none');
         });
+
+        function loadingscreen() {
+            setInterval(function(){
+                if ($('.loading-text p').text() == "Processing.") {
+                    $('.loading-text p').text("Processing  .");
+                } else if ($('.loading-text p').text() == "Processing  .") {
+                    $('.loading-text p').text("Processing    .");
+                } else if ($('.loading-text p').text() == "Processing    .") {
+                    $('.loading-text p').text("Processing.");
+                }
+            },300);
+        };
 });

@@ -31,10 +31,9 @@ $country = "United States";
 $sid = $_POST["sid"];
 $pid = $_POST["pid"];
 
-
 if ($fname && $lname && $zip && $email && $phone) {
 
-$url="http://leads.leadexec.net/processor/insert/AutoRedirect?VID=6160&LID=4204&AID=13020&Password=dboxyz123&Country=US&debt=".$debt."&email=".$email."&fname=".$fname."&lname=".$lname."&phone=".$phone."&pid=".$pid."&sid=".$sid."&zip=".$zip;
+$url="http://leads.leadexec.net/processor/insert/AutoRedirect?VID=6160&LID=4204&AID=13079&Password=dboxyz123&Country=US&debt=".$debt."&email=".$email."&fname=".$fname."&lname=".$lname."&phone=".$phone."&pid=".$pid."&sid=".$sid."&zip=".$zip;
 $ch = curl_init();
 curl_setopt( $ch, CURLOPT_URL, $url );
 curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.6 (KHTML, like Gecko) Chrome/16.0.897.0 Safari/535.6');
@@ -50,18 +49,16 @@ $validity = $xml->isValidPost;
 $QC = $xml->PendingQCReview;
 $redir = $xml->RedirectURL;
 
-
+if ($validity == true) {
+    header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
+} else {
+}
 if ($QC == "true") {
     header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
 } elseif ($QC == "false") {
     header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
 } else {
     header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
-}
-
-if ($validity == "true") {
-    header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
-} else {
 }
 
 }

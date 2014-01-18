@@ -825,3 +825,217 @@ Stack trace:
 #0 /home/debtco/public_html/altindex/mailformprocess.php(46): SimpleXMLElement->__construct('<!DOCTYPE html>...')
 #1 {main}
   thrown in /home/debtco/public_html/altindex/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 43: parser error : Opening and ending tag mismatch: link line 5 and head in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/head&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 50: parser error : Opening and ending tag mismatch: img line 50 and a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): //debtcompanyresearch.com&quot;&gt;&lt;img alt=&quot;debt relief logo&quot; src=&quot;images/logo.png&quot;&gt;&lt;/a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 51: parser error : Opening and ending tag mismatch: a line 50 and div in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():             &lt;/div&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                   ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 76: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;In Business Since:&lt;/span&gt; 1998&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 77: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;BBB Rating:&lt;/span&gt; A+&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 78: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Non-Profit:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 79: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Follow all FTC laws:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 80: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Certifications:&lt;/span&gt; BSI Certified, IAPDA in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 224: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): 18686a716e797b61587c7d7a6c7b7775687976616a7d6b7d796a7b70367b777536&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 230: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): =&quot;1d6d6f746b7c7e645d79787f697e72706d7c73646f786e787c6f7e75337e7270&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 319: parser error : Entity 'copy' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): mark Notice Info.&lt;/strong&gt; All contents of the DCR Website are: Copyright &amp;copy; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 444: parser error : Opening and ending tag mismatch: div line 45 and body in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/body&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Opening and ending tag mismatch: body line 44 and html in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag head line 3 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag html line 2 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:03 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/debtco/public_html/sky/mailformprocess.php:46
+Stack trace:
+#0 /home/debtco/public_html/sky/mailformprocess.php(46): SimpleXMLElement->__construct('<!DOCTYPE html>...')
+#1 {main}
+  thrown in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 12:38:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 55
+[17-Jan-2014 12:38:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 63
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 43: parser error : Opening and ending tag mismatch: link line 5 and head in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/head&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 50: parser error : Opening and ending tag mismatch: img line 50 and a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): lief logo&quot; src=&quot;http://www.debtcompanyresearch.com/thankyou/images/logo.png&quot;&gt;&lt;/a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 51: parser error : Opening and ending tag mismatch: a line 50 and div in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():             &lt;/div&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                   ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 76: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;In Business Since:&lt;/span&gt; 1998&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 77: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;BBB Rating:&lt;/span&gt; A+&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 78: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Non-Profit:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 79: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Follow all FTC laws:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 80: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Certifications:&lt;/span&gt; BSI Certified, IAPDA in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 224: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): d6a6a4bfa0b7b5af96b2b3b4a2b5b9bba6b7b8afa4b3a5b3b7a4b5bef8b5b9bbf8&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 230: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): =&quot;4d3d3f243b2c2e340d29282f392e22203d2c23343f283e282c3f2e25632e2220&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 319: parser error : Entity 'copy' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): mark Notice Info.&lt;/strong&gt; All contents of the DCR Website are: Copyright &amp;copy; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 444: parser error : Opening and ending tag mismatch: div line 45 and body in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/body&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Opening and ending tag mismatch: body line 44 and html in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag head line 3 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag html line 2 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:25:40 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/debtco/public_html/sky/mailformprocess.php:46
+Stack trace:
+#0 /home/debtco/public_html/sky/mailformprocess.php(46): SimpleXMLElement->__construct('<!DOCTYPE html>...')
+#1 {main}
+  thrown in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 43: parser error : Opening and ending tag mismatch: link line 5 and head in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/head&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 50: parser error : Opening and ending tag mismatch: img line 50 and a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): lief logo&quot; src=&quot;http://www.debtcompanyresearch.com/thankyou/images/logo.png&quot;&gt;&lt;/a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 51: parser error : Opening and ending tag mismatch: a line 50 and div in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():             &lt;/div&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                   ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 76: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;In Business Since:&lt;/span&gt; 1998&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 77: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;BBB Rating:&lt;/span&gt; A+&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 78: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Non-Profit:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 79: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Follow all FTC laws:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 80: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Certifications:&lt;/span&gt; BSI Certified, IAPDA in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 224: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): a7d7d5ced1c6c4dee7c3c2c5d3c4c8cad7c6c9ded5c2d4c2c6d5c4cf89c4c8ca89&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 230: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): =&quot;d1a1a3b8a7b0b2a891b5b4b3a5b2bebca1b0bfa8a3b4a2b4b0a3b2b9ffb2bebc&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 319: parser error : Entity 'copy' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): mark Notice Info.&lt;/strong&gt; All contents of the DCR Website are: Copyright &amp;copy; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 444: parser error : Opening and ending tag mismatch: div line 45 and body in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/body&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Opening and ending tag mismatch: body line 44 and html in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag head line 3 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag html line 2 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:27:30 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/debtco/public_html/sky/mailformprocess.php:46
+Stack trace:
+#0 /home/debtco/public_html/sky/mailformprocess.php(46): SimpleXMLElement->__construct('<!DOCTYPE html>...')
+#1 {main}
+  thrown in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:38:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 55
+[17-Jan-2014 15:38:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 61
+[17-Jan-2014 15:40:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 55
+[17-Jan-2014 15:40:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 61
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 43: parser error : Opening and ending tag mismatch: link line 5 and head in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/head&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 50: parser error : Opening and ending tag mismatch: img line 50 and a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): lief logo&quot; src=&quot;http://www.debtcompanyresearch.com/thankyou/images/logo.png&quot;&gt;&lt;/a in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 51: parser error : Opening and ending tag mismatch: a line 50 and div in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():             &lt;/div&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                   ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 76: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;In Business Since:&lt;/span&gt; 1998&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 77: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;BBB Rating:&lt;/span&gt; A+&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 78: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Non-Profit:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 79: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Follow all FTC laws:&lt;/span&gt; Yes&lt;/p&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 80: parser error : Entity 'raquo' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                     &lt;p&gt;&amp;raquo; &lt;span&gt;Certifications:&lt;/span&gt; BSI Certified, IAPDA in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                               ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 224: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): 11616378677072685175747365727e7c61707f6863746274706372793f727e7c3f&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 230: parser error : Entity 'nbsp' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): =&quot;3a4a48534c5b59437a5e5f584e5955574a5b5443485f495f5b48595214595557&quot;&gt;[email&amp;nbsp; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 319: parser error : Entity 'copy' not defined in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): mark Notice Info.&lt;/strong&gt; All contents of the DCR Website are: Copyright &amp;copy; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():                                                                                ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 444: parser error : Opening and ending tag mismatch: div line 45 and body in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/body&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Opening and ending tag mismatch: body line 44 and html in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag head line 3 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 445: parser error : Premature end of data in tag html line 2 in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct(): &lt;/html&gt; in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Warning:  SimpleXMLElement::__construct():        ^ in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:42:23 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/debtco/public_html/sky/mailformprocess.php:46
+Stack trace:
+#0 /home/debtco/public_html/sky/mailformprocess.php(46): SimpleXMLElement->__construct('<!DOCTYPE html>...')
+#1 {main}
+  thrown in /home/debtco/public_html/sky/mailformprocess.php on line 46
+[17-Jan-2014 15:43:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 55
+[17-Jan-2014 15:43:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 61
+[17-Jan-2014 15:44:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 55
+[17-Jan-2014 15:44:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 63
+[17-Jan-2014 15:46:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 54
+[17-Jan-2014 15:46:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 61
+[17-Jan-2014 15:48:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 52
+[17-Jan-2014 15:48:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/debtco/public_html/sky/mailformprocess.php:43) in /home/debtco/public_html/sky/mailformprocess.php on line 60

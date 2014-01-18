@@ -13,7 +13,7 @@ $(document).ready(function(){
 			);
 	});
 
-	$('.zip').on("keydown",function(){
+	$('input.zip').on("keydown",function(){
            if ($('.zip').val().length == 4) {
                 if ($('.glow').html() < 3) {
 		$('.glow').html('3');
@@ -63,7 +63,7 @@ $(document).ready(function(){
 	});
 
         $('.lname').on("keydown",function(){
-           if ($('.fname').val().length > 1 && $('.lname').val().length > 1) {
+           if ($('.fname').val().length > 0 && $('.lname').val().length > 0) {
                 if ($('.glow').html() < 4) {
 		$('.glow').html('4');
 		$('.phasebg').fadeOut(100,function(){
@@ -190,7 +190,7 @@ $(document).ready(function(){
 				$('.final-stage-ticket').fadeOut(300);
 			});
 		});
-                $('.zip').prop("disabled",false);
+                $('input.zip').prop("disabled",false);
                 }
             }
         });
@@ -198,7 +198,6 @@ $(document).ready(function(){
 // Validation
 
 $('.submit-form-ajax').click(function(event){
-                
                 if ($('.debt').val() == "nil") {
                         $('.debt').css({'border' : '1px solid #FF0000'});
 			alert('Please choose a debt amount.');
@@ -229,8 +228,9 @@ $('.submit-form-ajax').click(function(event){
 			var LastName = $('.last-name').val();
 			var Email = $('.email').val();
 			var PhoneNumber = $('.areacode').val() + '-' + $('.prefix').val() + '-' + $('.suffix').val();
-                        if ($('.glow').html() < 6) {
-		$('.glow').html('6');
+                      if ($('.glow').html() < 6) {
+		$('.glow').html('6'); 
+                /* 
 		$('.phasebg').fadeOut(100,function(){
 			$('.phase6').fadeIn(300,function(){
 				$('.phase1').fadeOut(300);
@@ -250,7 +250,9 @@ $('.submit-form-ajax').click(function(event){
                                 $('.bottom-section').fadeOut(300);
                                 $('.final-step-thankyou-panels').fadeIn(300);
 			});
-		});
+		}); */
+                $('.loading-screen').css('display','block');    
+                loadingscreen();
                 var frm = $('.contactForm');
                 $.ajax({
 			type: frm.attr('method'),
@@ -275,6 +277,16 @@ $('.submit-form-ajax').click(function(event){
 		return pattern.test(emailAddress);
 	};
 
-
+        function loadingscreen() {
+            setInterval(function(){
+                if ($('.loading-text p').text() == "Processing.") {
+                    $('.loading-text p').text("Processing  .");
+                } else if ($('.loading-text p').text() == "Processing  .") {
+                    $('.loading-text p').text("Processing    .");
+                } else if ($('.loading-text p').text() == "Processing    .") {
+                    $('.loading-text p').text("Processing.");
+                }
+            },300);
+        };
 
 });

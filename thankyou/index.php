@@ -47,7 +47,7 @@
         </div>
         <div class="container">
             <div class="logo">
-                <a href="http://debtcompanyresearch.com"><img alt="debt relief logo" src="images/logo.png"></a>
+                <a href="http://debtcompanyresearch.com"><img alt="debt relief logo" src="http://www.debtcompanyresearch.com/thankyou/images/logo.png"></a>
             </div>
 
             <div class="success-banner">

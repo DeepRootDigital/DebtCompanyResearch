@@ -31,6 +31,8 @@ $country = "United States";
 $sid = $_POST["sid"];
 $pid = $_POST["pid"];
 
+if ($fname && $lname && $zip && $email && $phone) {
+
 $url="http://leads.leadexec.net/processor/insert/AutoRedirect?VID=6160&LID=4204&AID=13079&Password=dboxyz123&Country=US&debt=".$debt."&email=".$email."&fname=".$fname."&lname=".$lname."&phone=".$phone."&pid=".$pid."&sid=".$sid."&zip=".$zip;
 $ch = curl_init();
 curl_setopt( $ch, CURLOPT_URL, $url );
@@ -40,7 +42,6 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1); 
 $content = curl_exec( $ch );
 $return = curl_getinfo( $ch );
-echo $content;
 curl_close ( $ch );
 
 $xml = new SimpleXMLElement($content);
@@ -48,21 +49,18 @@ $validity = $xml->isValidPost;
 $QC = $xml->PendingQCReview;
 $redir = $xml->RedirectURL;
 
-
+if ($validity == true) {
+    header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
+} else {
+    header("Location: http://www.debtcompanyresearch.com/");
+}
 if ($QC == "true") {
     header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
 } elseif ($QC == "false") {
-} else {
-echo "Error";
-}
-
-if ($validity == "true") {
     header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
-} elseif ($validity == "false") {
-    echo "Nah Man";
 } else {
-    echo "Error";
+    header("Location: http://www.debtcompanyresearch.com/thankyou/?chosen=cambridge");
 }
-
+}
 
 ?>

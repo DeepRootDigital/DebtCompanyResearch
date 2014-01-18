@@ -76,6 +76,56 @@ $(document).ready(function(){
 			
 		}
 	});
+
+$('.submit-form-ajax').click(function(event){
+                if ($('.debt').val() == "nil") {
+                        $('.debt').css({'border' : '1px solid #FF0000'});
+			alert('Please choose a debt amount.');
+                } else if(!$('.zip').val()) {
+                        $('.zip').css({'border' : '1px solid #FF0000'});
+			alert('Please Enter Your Zip Code.');
+                }
+		else if(!$('.fname').val()) {
+			$('.fname').css({'border' : '1px solid #FF0000'});
+			alert('Please Enter Your First Name.');
+		} 
+                else if(!$('.lname').val()) {
+			$('.lname').css({'border' : '1px solid #FF0000'});
+			alert('Please Enter Your Last Name.');
+		} 
+		else if(!$('.email').val() || !isValidEmailAddress($('.email').val()) || $.trim($('.email').val()).length < 3 ) {
+			$('.email').css({'border' : '1px solid #FF0000'});
+			alert('Please Enter A Valid Email.');
+		}
+		else if(!$('.areacode').val() || $('.areacode').val().length < 3 || !$('.prefix').val() || $('.prefix').val().length < 3 || !$('.suffix').val() || $('.suffix').val().length < 4  ) {
+			$('.phone-lit').css({'border' : '1px solid #FF0000'});
+			alert('Please Enter a valid Phone Number.');
+		}
+		else {
+			var DebtAmmount = window.Ammount;
+			var ZipCode = $('.zip').val();
+			var FirstName = $('.first-name').val();
+			var LastName = $('.last-name').val();
+			var Email = $('.email').val();
+			var PhoneNumber = $('.areacode').val() + '-' + $('.prefix').val() + '-' + $('.suffix').val();
+                      if ($('.glow').html() < 6) {
+		$('.glow').html('6'); 
+                $('.loading-screen').css('display','block');    
+                loadingscreen();
+                var frm = $('.contactForm');
+                $.ajax({
+			type: frm.attr('method'),
+			url: 'mailformprocess.php',
+			data: frm.serialize(),
+			success: function (data) {
+			},
+			error: function(data){
+			}
+
+		});
+                }
+		}
+	});
 	//Tab Functionality
 
 	function TabBuffer() {
@@ -129,4 +179,16 @@ $(document).ready(function(){
             $('.privacy-popout').css('display','none');
             $('.terms-popout').css('display','none');
         });
+
+        function loadingscreen() {
+            setInterval(function(){
+                if ($('.loading-text p').text() == "Processing.") {
+                    $('.loading-text p').text("Processing  .");
+                } else if ($('.loading-text p').text() == "Processing  .") {
+                    $('.loading-text p').text("Processing    .");
+                } else if ($('.loading-text p').text() == "Processing    .") {
+                    $('.loading-text p').text("Processing.");
+                }
+            },300);
+        };
 });
